@@ -3,13 +3,6 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Link from "next/link"
 
-import "@fontsource/playfair-display/400.css"
-import "@fontsource/playfair-display/700.css"
-import "@fontsource/montserrat/300.css"
-import "@fontsource/montserrat/400.css"
-import "@fontsource/montserrat/500.css"
-import "@fontsource/cinzel/400.css"
-import "@fontsource/petit-formal-script/400.css"
 
 export default function Home() {
   const [revealOthers, setRevealOthers] = useState(false)
@@ -29,7 +22,6 @@ export default function Home() {
           <p className="text-gray-300 font-light tracking-wide text-base">Email: yourname@example.com</p>
           <p className="text-gray-300 font-light tracking-wide text-base">Phone: +123 456 7890</p>
         </motion.div>
-
         {/* Social Handles */}
         <motion.div
           className="col-span-1 row-span-1 bg-gradient-to-br from-[#2a2a2a] to-[#232323] rounded-2xl p-5 flex flex-col justify-center shadow-md border border-gray-700/20"
