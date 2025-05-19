@@ -79,7 +79,7 @@ export default function Home() {
           <img src="download.jpeg" className="w-full h-full object-cover scale-110" alt="Author" />
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-[#2C2A26]/70 text-[#E7DDC6]">
             <h1 className="text-xl font-semibold">Niharika Joshi</h1>
-            <p className="text-sm font-light">Content Writer · Designer · Econ Grad</p>
+            <p className="text-sm font-light">Content Writer · Designer  · Econ Grad</p>
           </div>
         </motion.div>
 
