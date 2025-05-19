@@ -7,12 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-  fontFamily: {
-    sans: ['Inter', 'sans-serif'],
-    serif: ['Playfair Display', 'serif'],
-  },
-}
-
+      colors: {
+        bgDark: '#2C2A26',
+        cardBeige: '#E7DDC6',
+        textDark: '#3F3D3B',
+        textAccent: '#6F6A65',
+      },
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'], // For elegant serif feel
+        sans: ['"Inter"', 'sans-serif'], // For body
+      },
+    },
   },
   plugins: [],
 };
