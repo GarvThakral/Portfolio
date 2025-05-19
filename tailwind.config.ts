@@ -6,7 +6,13 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}", // optional if you also use /pages
   ],
   theme: {
-    extend: {},
+    extend: {
+  fontFamily: {
+    sans: ['Inter', 'sans-serif'],
+    serif: ['Playfair Display', 'serif'],
+  },
+}
+
   },
   plugins: [],
 };
